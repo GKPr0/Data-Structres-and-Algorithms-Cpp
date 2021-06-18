@@ -5,7 +5,7 @@ using namespace std;
 
 
 /*
-    Time complexity when using  unordered set is O(N)
+    Time complexity when using unordered set is O(N)
 */
 vector<int> pairSum(vector<int> vec, int sum){
     unordered_set<int> set;
