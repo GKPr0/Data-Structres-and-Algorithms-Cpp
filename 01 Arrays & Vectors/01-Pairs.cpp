@@ -3,6 +3,10 @@
 #include <unordered_set>
 using namespace std;
 
+
+/*
+    Time complexity when using  unordered set is O(N)
+*/
 vector<int> pairSum(vector<int> vec, int sum){
     unordered_set<int> set;
 
@@ -17,6 +21,9 @@ vector<int> pairSum(vector<int> vec, int sum){
     return {};
 }
 
+/*
+    Find pair of numbers in the given list so its sum is equal to some given number.
+*/
 int main()
 {
     vector<int> vec{10, 5, 2, 3, -6, 9, 11};
